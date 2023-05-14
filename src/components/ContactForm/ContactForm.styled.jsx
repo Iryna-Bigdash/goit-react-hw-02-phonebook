@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 export const Form = styled.form`
   border-color: white;
   display: flex;
+  padding: 20px;
   justify-content: center;
   background-color: #8b54c1;
 `;
@@ -24,4 +25,8 @@ export const BtnForm = styled.button`
   border: none;
   border-radius: 5%;
   cursor: pointer;
+
+  &&:hover{
+    border: 1px solid white;
+  }
 `;
